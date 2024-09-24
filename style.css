@@ -1,0 +1,243 @@
+.espaco{
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-size: 25px;
+    border: 0.125rem solid transparent;
+    border-radius: 10%;
+
+}
+.form{
+   margin-inline: 20%;
+   text-align: center;
+   margin-top: -40px;
+   
+}
+label{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #7a7a7a;
+}
+
+.area{
+    font-size: 25px;
+    width: 95%; 
+    font-family: 'Courier New', Courier, monospace;      
+    border: 0.125rem solid transparent;
+    border-radius: 10%;
+}
+.field{
+    border-radius: 5%;
+    margin-bottom: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+    background-color: #c2d3f6;
+}
+.field2{
+    border-radius: 5%;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #c2d3f6;
+}   
+.span{
+    font-size: 25px;
+    padding-left: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #7a7a7a;
+}
+.titulo{
+    font-family: 'Courier New' ,Courier, monospace; 
+    font-size: 40; 
+    text-align: center; 
+}
+
+
+.container{
+    background-image: url("imagens/azul.jpg");
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 30px;
+
+    
+}
+
+.imagensPalestrantes{
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    border: 8px solid rgb(255, 255, 255);
+}
+
+.biografia{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 10%;
+    color:#7a7a7a;
+}
+
+.input{
+    width: 40%;
+    padding: 1.0rem;
+    align-items: center;
+    background-color: #f2f4f8;
+    border: solid transparent;
+    margin-bottom: 5px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.form2{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.tituloContato{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #024b80;
+    text-align: center;
+    margin-top: 100px;
+}
+.paragrafoContato{
+    font-family:'Courier New', Courier, monospace;
+    color: #7a7a7a;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 29%;
+    padding-right: 29%;
+}
+.envioContato{
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    width: 15%;
+    padding: 0.75rem;
+    border: transparent;
+    background-color: #024b80;
+    margin-bottom: 50px;
+}
+.cabecalho{
+    max-width: 100%;
+    height: 75px;
+    align-items: center;
+    background-color: #024b80;
+    border-color: transparent;
+    padding: 0.30rem;
+}
+
+.nav{
+    padding-top: 25px;   
+    
+}
+.link{
+    color: white;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.link:active{
+    color: #a3a3a3;
+}
+
+body{
+    margin: 0px;
+}
+.logo{
+    width: 300px;
+    height: 60px;
+    border: transparent;
+    float: left;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+.iconeContato{
+    display: flex;
+    margin-left: 42%;
+}
+
+.iconeTelefone{
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    margin-top: 1.8%;
+}
+.paragrafoTelefone{
+    font-family:'Courier New', Courier, monospace;
+    color: #7a7a7a;
+    font-size: 25px;
+    text-align: center;
+}
+.paragrafoAmarelo{
+    font-family:'Courier New', Courier, monospace;
+    color: #ffb727;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.paragrafoInformacoes{
+    font-family:'Courier New', Courier, monospace;
+    color: #7a7a7a;
+    font-size: 25px;
+}
+.informacoesPalestra{
+    display: flex;
+    margin-left: 50px;
+}
+
+.coluna{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background-color: #024b80;
+    color: white;
+    width: 50%;
+    margin-left: 50%;
+}
+
+.tr{
+    align-items: center;
+    background-color: #f2f4f8;
+    
+}
+
+.palestra{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+footer{
+    background-color: #024b80;
+    max-width: 100%;
+    height: 150px;
+    text-align: center;
+    color: white;
+    margin-top: 20%;
+
+}
+.palestrante{
+    display: flex;
+    background-image: url(palestrante.webp);
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+}
+.fonteInicial{
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    vertical-align: 5%;
+}
+
+.paragrafoHistoria{
+    font-family:'Courier New', Courier, monospace;
+    color: #7a7a7a;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 29%;
+    padding-right: 29%;
+    text-align: justify;
+}

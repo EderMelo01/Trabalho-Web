@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=header, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="caixaCabecalho">
+            <img class="logo" src="logo.png" alt="logo">
+        </div>
+            <nav class="nav">
+                <a class="link" href="index.html">Sobre quem somos?</a>
+                <a class="link"  href="inscricao.html">Incrição</a>
+                <a class="link"  href="programacao.html">Programação</a>
+                <a class="link"  href="palestrante.html">Palestrantes</a>
+                <a class="link" href="contato.html">Contato</a>
+            </nav>
+        
+    </header>
+    <main>
+        <h1 class="tituloContato">Increva-se</h1>
+        <form action="#">
+            <div class="form">
+                <fieldset class="field">
+                    <label name="name">Nome Completo</label><br>
+                    <input type="text" name="name" id="name" class="espaco"/> <br>
+                    <label for="E-mail">E-mail</label> <br>
+                    <input type="email" name="email" id="email" class="espaco"><br>
+                    <label for="cpf">CPF:</label> <br>
+                    <input type="text" name="cpf" id="cpf" class="espaco"><br>
+                    <label for="cidade">Cidade:</label> <br>
+                    <input type="text" name="cidade" id="cidade"class="espaco"><br>
+                </fieldset>
+                
+                <fieldset class="field2"> 
+                    <span class="span">Selecione as palestras:</span><br>
+                    <input type="checkbox" name="palestra1" id="palestra1">
+                    <label for="palestra1">Palestra de Boas-Vindas</label><br>
+                    <input type="checkbox" name="palestra2" id="palestra2">
+                    <label for="palestra2">Mesa Redonda: Inovações Tecnológicas no Mercado</label><br>
+                    <input type="checkbox" name="palestra3" id="palestra3">
+                    <label for="palestra3">Oficina Prática: Desenvolvimento de Competências</label><br>
+                    <br>
+                    <label for="expec">O que pretende aprender ou desenvolver durante o evento?</label><br>
+                    <textarea name="expec" id="expec" class="area"></textarea>
+                </fieldset>
+                <button class="envioContato" type="submit">Enviar</button>
+            </div>
+
+        </form>
+    </main>
+    <footer>
+        <p style="padding-top:40px;">Política de privacidade Política de cookies</p>
+        <p>Faça parte do nosso casting de Palestrantes e Mestres de Cerimônias</p>
+    </footer>
+</body>
+</html>
